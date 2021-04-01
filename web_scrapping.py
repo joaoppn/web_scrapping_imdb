@@ -2,7 +2,7 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-import sys
+
 
 
 data = pd.read_csv("ml-25m/links.csv", dtype='str') #lendo a tabela
