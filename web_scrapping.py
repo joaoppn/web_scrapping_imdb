@@ -5,7 +5,8 @@ from bs4 import BeautifulSoup
 import sys
 
 
-data = pd.read_csv("ml-25m/links.csv", dtype='str')
+data = pd.read_csv("ml-25m/links.csv", dtype='str') #lendo a tabela
+
 new_data = {'movieId':[], 'stars':[], 'directors':[], 'writers':[]}
 for i in range(len(data)):
     try:
